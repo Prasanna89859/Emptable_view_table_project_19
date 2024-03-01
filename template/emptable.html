@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emp table</title>
+</head>
+<body>
+    <center>
+        <table>
+        <h1>Emptable</h1>
+        <tr><th>EmployeeTable</th></tr>
+        {% for Eo in Ename %}
+        <tr>
+            <td>{{ Eo.Ename }}</td>
+        </tr>
+        {% endfor %}
+        </table>
+    </center>
+
+
+
+
+</body>
+</html>
